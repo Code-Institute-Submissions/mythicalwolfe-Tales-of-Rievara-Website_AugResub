@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Tales of Rievara</title>
+     <link rel="stylesheet" href="css/style.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+     rel="stylesheets">
+     <style>
+         /* Button style allowing the button to function due to css issues */
+        #btnscrolltotop {
+        position: fixed;
+        right : 10px;
+        bottom: 100px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background:red;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        color: white ;
+        border: none ;
+        outline: none;
+        cursor: pointer;
+      }
+      </style>
+      <script>
+        /* button scroll to top java event */
+        const btnscrolltotop= document.queryselector("#btnscrolltotop");
+        btnscrolltotop.addeventlistener("click", function (){
+          window.scrollto(0, 0);
+        })
+
+      </script>
+    </head>
+   
+    <body>
+       <header>
+         <nav>
+            <ul>
+              <!-- Navigation bar linking the other pages -->
+               <li><a href="home.html">Home</a></li>
+               <li><a href="how-to-play.html">How to Play</a></li>
+               <li><a href="gallery.html"> Gallery </a></li>
+                <li class="navactive"><a href="contact.html">Contact</a></li>
+               
+           </ul>
+        </nav> 
+    </header>
+        <!-- button scroll to top function -->
+        <form> <button type="submit" id="btnscrolltotop">
+            <i class="material-icon">Top</i>
+          </button>
+         </form>
+     <br>
+     <br>
+     <br>
+
+        <!-- Banner and audio features -->
+           <img id="banner" src="assets/Artwork/talesofrievara.jpg" alt="your browser doesnt support this image, Image display of the banner related to the series">
+           <div id="Contact">
+               <audio controls 
+            src="assets/media/Music.mp3">
+    <span>Your browser doesn't support this file. Celtic style music giving off an enchanted essence and atmosphere.</span>
+</audio>
+               
+                 <!-- Section 1 including a base description of relevant information -->
+                   <h1><bold>How to Contact us!</bold></h1>
+                   <p>
+                   If your looking to invest in the project or give us ideas you'd like to see, we have a email for all enquiries to go!
+                   <br>
+                  </p>
+                   <p>Contact us at: talesofrievara@outlook.com
+                   <br>
+                   Alternatively using the form below will send a direct email to us with your name and query.
+                   <br>
+                   Please note this will take you out of the website and load a new page with the form. 
+                   <!-- Unfortunately due to deploy issues the form is no longer included
+                  a html form will be used at a later date for myself but will no longer be used for the project-->
+            <br>
+            <br>
+            <br>
+            <!-- paragraphs showing the info to get our resources-->
+                   For people looking to access resources or pages for people who aren't directly involved with the website 
+                   <br>
+                   or art work you'll find them linked at the bottom of the <a href="home.html">Home</a> page or email us if theres any issues.
+                   <br>
+                   Alternatively if you wish to keep up to date with the project and where it's going we have
+                   <br>
+                    a social media page using Facebok where we post reguarlaly.
+                   You can find us at:
+
+                   <!-- External source dirrectly to our social media page --> 
+                   <a rel="noopener" rel="noreferrer" href="https://www.facebook.com/talesofrievara/" title="Facebook" target="_blank">Tales of Rievara on Facebook!</a>
+            </p>
+              
+                   <h1><bold>Resource links</bold></h1>
+                   <!-- Credit towards additional parties involved with the project along with direct links to their pages -->
+                   <p>
+                     In this section you'll find links to pages for people who had a direct impact on the website and its counterparts. 
+                   <li><a rel="noopener" rel="noreferrer" href="https://www.discord.com" target="_blank">Discord</a> Search for Blacksmith#4780 who was the original artist for the banner and character sprites.</li>
+                   <li><a rel="noopener" rel="noreferrer" href="https://www.fiverr.com/aboutbl4nk" target="_blank">Fivver</a> About4blank created and assembled the example cards used in the how to page.</li>
+                   <li><a rel="noopener" rel="noreferrer" href="https://alexs-assets.itch.io/16x16-rpg-item-pack" target="_blank">Itch.io</a> Alex is the original creator of the sprites found inside the cards for items and equipement, here you'll find the item pack along with a place to donate towards his art.</li>
+                   <li><a rel="noopener" rel="noreferrer" href="https://pixabay.com/music/acoustic-group-celtic-spirits-irish-bodhran-drums-and-classic-guitar-2964/" target="_blank">Pixabay</a> Julius H provided the non copyrighted music for the ambience of the site.</li>
+               </p>
+
+             
+     
+           
+   <!-- Navigation for the footer logos and source links-->
+   <nav>
+    <ul>
+        <li><a rel="noopener, noreferrer" href="https://www.instagram.com/accounts/login/" target="_blank" ><img alt="Your browser doesn't support this image, this image is the Instagram logo." src="assets/Artwork/Instagram_icon.jpg"></a></li>
+        <li><a rel="noopener, noreferrer" href="https://www.facebook.com/talesofrievara/" target="_blank" ><img alt="Your browser doesn't support this image, this image is the Facebook logo and directly takes you to our social media page." src="assets/Artwork/Facebook_icon.jpg"></a></li>
+       <li><a rel="noopener, noreferrer" href="https://twitter.com/login?lang=en-gb" target="_blank" ><img alt="Your browser doesn't support this image, this image displays the Twitter logo." src="assets/Artwork/Twitter_icon.jpg"></a></li>
+       <li><a rel="noopener, noreferrer" href="https://twitter.com/login?lang=en-gb" target="_blank" ><img alt="Your browser doesn't support this image, this image displays the Fiverr logo and takes you directly to the freelance UK site." src="assets/Artwork/fiverr_logo.jpg"></a></li>
+       <li><a rel="noopener, noreferrer" href="https://www.patreon.com/" target="_blank" ><img src="assets/Artwork/patreon-icon.jpg" alt="Your browser doesn't support this image, this image is the Patreon logo"></a></li>
+    </ul>
+    <br>
+    <p>Please note not all social medias currently operate or exist, these will be coming soon!</p>
+        <!-- Ths has been placed as a precursor for future social medias and is not being used for the project as of this current date. It has also been used to create an outline border to the page.-->
+</nav> 
+</body>
+</html>

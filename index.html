@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Tales of Rievara</title>
+     <link rel="stylesheet" href="css/style.css">
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+     rel="stylesheets">
+     <style>
+         /* Button style allowing the button to function due to css issues */
+        #btnscrolltotop {
+        position: fixed;
+        right : 10px;
+        bottom: 100px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background:red;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+        color: white ;
+        border: none ;
+        outline: none;
+        cursor: pointer;
+      }
+      </style>
+      <script>
+        /* button scroll to top java event */
+        const btnscrolltotop= document.queryselector("#btnscrolltotop");
+        btnscrolltotop.addeventlistener("click", function (){
+          window.scrollto(0, 0);
+        })
+        </script> 
+      <!-- Code for js functions, this feature is implemented later on for project 2  
+<script src="https://code.jquery.com/jquery-3.3.1.min.js">
+      </script>
+      <script src="javascript/app.js"></script>
+      <script src="javascript/home.js"></script>
+      <script src="javascript/common.js"></script>
+      -->
+    </head>
+   
+    <body>
+         <header>
+        <nav id="#nav">
+            <ul>
+              <!-- Navigation bar linking the other pages -->
+               <li><a href="home.html">Home</a></li>
+               <li><a href="how-to-play.html">How to Play</a></li>
+               <li><a href="gallery.html"> Gallery </a></li>
+               <li><a href="contact.html">Contact</a></li>  
+           </ul>
+        </nav>
+    </header>
+        <!-- button scroll to top function -->
+        <form> <button type="submit" id="btnscrolltotop">
+            <i class="material-icon">Top</i>
+          </button>
+         </form>
+        <br>
+        <br>
+        <br>
+        
+        <!-- Banner and audio features -->
+           <img id="banner" src="assets/Artwork/talesofrievara.jpg" alt="your browser doesnt support this image, Image display of the banner related to the series">
+          <br>
+               <audio controls 
+            src="assets/media/Music.mp3">
+    <span>Your browser doesn't support this file. Celtic style music giving off an enchanted essence and atmosphere.</span>
+</audio>
+    
+<!-- Promotion bar functions (not fully implemented yet and is a test)-->
+    <div id="promobar">
+        <div> The first of many projects to come</div>
+        <div> Tales of Rievara card game coming soon!</div>
+        <div> Mythical Industries set to launch 2 new games by Christmas 2021</div>
+    </div>
+
+    <!-- This section is for the initial title -->
+        <h1> Welcome to Tales of Rievara! A game created by Mythical Industries. </h1>
+        
+     
+        <!-- Navigation for the footer logos and source links-->
+    <nav>
+        <ul>
+            <li><a rel="noopener, noreferrer" href="https://www.instagram.com/accounts/login/" target="_blank" ><img alt="Your browser doesn't support this image, this image is the Instagram logo." src="assets/Artwork/Instagram_icon.jpg"></a></li>
+            <li><a rel="noopener, noreferrer" href="https://www.facebook.com/talesofrievara/" target="_blank" ><img alt="Your browser doesn't support this image, this image is the Facebook logo and directly takes you to our social media page." src="assets/Artwork/Facebook_icon.jpg"></a></li>
+           <li><a rel="noopener, noreferrer" href="https://twitter.com/login?lang=en-gb" target="_blank" ><img alt="Your browser doesn't support this image, this image displays the Twitter logo." src="assets/Artwork/Twitter_icon.jpg"></a></li>
+           <li><a rel="noopener, noreferrer" href="https://twitter.com/login?lang=en-gb" target="_blank" ><img alt="Your browser doesn't support this image, this image displays the Fiverr logo and takes you directly to the freelance UK site." src="assets/Artwork/fiverr_logo.jpg"></a></li>
+           <li><a rel="noopener, noreferrer" href="https://www.patreon.com/" target="_blank" ><img src="assets/Artwork/patreon-icon.jpg" alt="Your browser doesn't support this image, this image is the Patreon logo"></a></li>
+        </ul>
+        <br>
+        <p>Please note not all social medias currently operate or exist, these will be coming soon!</p>
+            <!-- Ths has been placed as a precursor for future social medias and is not being used for the project as of this current date. It has also been used to create an outline border to the page.-->
+    </nav> 
+ </body>
+    </html>
+       
