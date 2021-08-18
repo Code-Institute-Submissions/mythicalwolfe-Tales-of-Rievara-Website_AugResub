@@ -35,3 +35,8 @@ id actually like it if you guys would see the potential in the website and watch
 
 Thank you 
 Mythicalwolfe
+
+Below is the screenshots for the site:
+
+<img src="blob:moz-extension://42f34fff-cfa7-4811-a024-e23dec491911/4520a431-8f3d-4670-abac-a613418134c6">
+<img src="blob:moz-extension://42f34fff-cfa7-4811-a024-e23dec491911/d499dafe-e32f-4e5c-b5cb-ee86dfef65d1">
