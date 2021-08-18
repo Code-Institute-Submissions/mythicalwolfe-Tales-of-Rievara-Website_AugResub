@@ -91,46 +91,14 @@
   <h1>Below will hold a list of every update before and after release</h1>
   Updates are currently unavailable and will be scheduled at a later date, thank you for your patience.
 </p>
-<script>
-  var slideIndex = 1;
-  showSlides(slideIndex);
-  
-  function plusSlides(n) {
-    showSlides(slideIndex += n);
-  }
-  
-  function currentSlide(n) {
-    showSlides(slideIndex = n);
-  }
-  
-  function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {slideIndex = 1}    
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";  
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex-1].style.display = "block";  
-    dots[slideIndex-1].className += " active";
-  }
-  
-  const btnscrolltotop= document.queryselector("#btnscrolltotop");
-          btnscrolltotop.addeventlistener("click", function (){
-            window.scrollto(0, 0);
-          })
-         
-       </script>
+
             <!-- Code for js functions --> 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js">
 </script>
 <script src="javascript/app.js"></script>
 <script src="javascript/home.js"></script>
 <script src="javascript/common.js"></script>
+<script src="javascript/script.js"></script>
 
 </body>
 <footer>
