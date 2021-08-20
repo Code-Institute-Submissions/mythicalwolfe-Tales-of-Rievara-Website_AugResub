@@ -1,7 +1,8 @@
 function common () {  
     let self= this;
     /* properties */
-    this.promobar= {
+    this.promobar= 
+    {
         promoitems: null,
         currentitem: 0,
         numberofitems: 0,
