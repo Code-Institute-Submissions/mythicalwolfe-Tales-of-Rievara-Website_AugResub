@@ -1,4 +1,4 @@
-function common () {  
+function common() {  
     let self= this;
     /* properties */
     this.promobar= 
@@ -8,9 +8,9 @@ function common () {
         numberofitems: 0,
     };
     /* methods */
-    this.intialisepromo= function (){
+    this.intialisepromo= function(){
         /* get all items in promo bar */
-        letpromoitems= $("#promo > div");
+        let promoitems= $("#promo > div");
         /* values */
         this.promobar.promoitems= promoitems;
         this.promobar.numberofitems= promoitems.length;
