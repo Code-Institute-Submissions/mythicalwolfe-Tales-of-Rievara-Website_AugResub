@@ -23,7 +23,15 @@
         outline: none;
         cursor: pointer;
       }
-    
+      /*style for promotion bar */
+   #cycle{
+     color:black; 
+    background:white;
+    width:100%;
+    font-size:50px;
+    text-align:center;
+   
+  }
       </style>
       <script>
         /* button scroll to top java event */
@@ -33,7 +41,7 @@
         })
         </script> 
       <!-- Code for js functions --> 
-<script src="https://code.jquery.com/jquery-3.3.1.min.js">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js">
       </script>
       <script src="javascript/app.js"></script>
       <script src="javascript/home.js"></script>
@@ -43,15 +51,23 @@
    
     <body>
          <header>
+           <!-- Navigation bar linking the other pages -->
         <nav id="#nav">
             <ul>
-            
-              <!-- Navigation bar linking the other pages -->
-               <li><a href="home.html">Home</a></li>
-               <li><a href="how-to-play.html">How to Play</a></li>
-               <li><a href="gallery.html"> Gallery </a></li>
-               <li><a href="contact.html">Contact</a></li> 
-               <li><a href="update.html">Updates</a></li> 
+              <div class="navbar">
+                <a href="">About Us</a>
+                <a href="">Our Team</a>
+                <a href="">Contact Us</a>
+                <div class="dropdown">
+                  <button type="dropdown" class="dropbtn">Games
+                   
+                  </button>
+                  <div class="dropdown-content">
+                    <a href="home.html">Tales of Rievara CG</a>
+                    
+                  </div>
+                </div>
+              </div> 
            </ul>
         </nav>
     </header>
@@ -70,12 +86,29 @@
             src="assets/media/Music.mp3">
     <span>Your browser doesn't support this file. Celtic style music giving off an enchanted essence and atmosphere.</span>
 </audio>
-<!-- Promotion bar functions (not fully implemented yet and is a test)-->
+ <div id="cycle"
+></div>
+ 
+    <script>
+    const textList = ["One", "Two", "Three", "Four", "Five"];
+    
+    const cycle = document.querySelector("#cycle");
+    let i = 0;
+    const cycleText = () => {
+      cycle.innerHTML = textList[i];
+      i = ++i % textList.length;
+    };
+    cycleText();
+    setInterval(cycleText, 4000);
+    </script>
+<!-- Promotion bar functions (not fully implemented yet and is a test)
     <div id="promobar">
         <div> The first of many projects to come</div>
         <div> Tales of Rievara card game coming soon!</div>
         <div> Mythical Industries set to launch 2 new games by Christmas 2021</div>
-    </div>
+    </div>-->
+
+   
 
     <!-- This section is for the initial title -->
         <h1 id="head"> Welcome to Mythical Industries!  </h1>
