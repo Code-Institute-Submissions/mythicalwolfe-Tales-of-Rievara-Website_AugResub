@@ -34,7 +34,8 @@
 }
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #fff;
+    color: #4a4a4f
 }
 
 /* Dropdown content (hidden by default) */
@@ -79,7 +80,8 @@ nav{
   padding: 0;
   width: 100%;
   z-index: 1;
-  display: block; 
+  display: block;
+  font-family: inherit; 
   }
   nav ul{
       list-style: none;
@@ -128,6 +130,7 @@ color:black ;
   font-family:Arial, Helvetica, sans-serif;
   text-align: center; 
   color: white;
+  font-family: inherit;
   }
   
   /* Background image style */
